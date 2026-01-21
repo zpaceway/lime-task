@@ -2,6 +2,10 @@
 
 Clinical notes management tool with voice transcription.
 
+## Demo
+
+[Video Demo](https://drive.google.com/file/d/1a0op3L9DmNliSd5HQUN3-prsUcnxHRub/view)
+
 ## Features
 
 - Create clinical notes with text or voice input
@@ -35,6 +39,15 @@ Clinical notes management tool with voice transcription.
 
 - Node.js 18+
 - Docker
+
+## Environment Variables
+
+Create a `.env` file in the root directory with the following variables:
+
+```env
+DATABASE_URL="postgresql://postgres:postgres@localhost:5432/postgres"
+NODE_ENV="development"
+```
 
 ## Setup
 
